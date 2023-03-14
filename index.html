@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do List</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="main-container">
+
+        <div id="second-container">
+
+            <div id="title-container">
+                <h1 id="main-title">TodoApp</h1>
+            </div>
+
+            <div id="add-container">
+                <form id="form">
+                    <input type="text" name="" id="add-in" placeholder="Ejemplo: Hacer la cama">
+                    <button id="add-button">
+                        Add
+                    </button>
+                </form>
+            </div>
+
+            <div id="list-container">
+                <ul id="list">
+                    <!-- <li class="tasks">
+                        <div id="task">
+                            Agregue algo a la lista de tareas
+                        </div>
+                        <div id="buttons-container">
+                            <button id="delete-button">
+                                Delete
+                            </button>
+                            <button id="confirm-button">
+                                Confirm
+                            </button>
+                        </div>
+                    </li> -->
+                </ul>
+                
+            </div>
+
+            <div id="iterators-container">
+                <div id="total-container" class="iterators">
+                    <p class="all-task">Total Task: </p><p id="total-iterator" class="all-task">0</p>
+                </div>
+                <div id="incomplete-container" class="iterators">
+                    <p class="all-task">Partial Task: </p><p id="incomplete-iterator" class="all-task">0</p>
+                </div>
+                <div id="complete-container" class="iterators">
+                    <p class="all-task">Done Task: </p><p id="complete-iterator" class="all-task">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
